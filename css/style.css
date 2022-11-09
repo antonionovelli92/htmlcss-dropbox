@@ -3,6 +3,10 @@
     border: 2px dashed black;
 }
 
+.bg-blul {
+    background-color: #B3D0E7;
+}
+
 
 
 /* Reset CSS */
@@ -51,6 +55,36 @@ header .navbar {
 }
 
 
+/* !JUMBO */
+
+
+.jumbo {
+
+    height: 600px;
+}
+
+.jumbo-content {
+    display: flex;
+    height: 100%;
+}
+
+.jumbo-text {
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    margin: 25px 50px;
+
+}
+
+.jumbo-col-left {
+    flex-basis: 30%;
+
+}
+
+.jumbo-col-right {
+    flex-basis: 70%;
+
+}
 
 
 
@@ -64,7 +98,7 @@ header .navbar {
 }
 
 .container-mid {
-    max-width: 1000;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
