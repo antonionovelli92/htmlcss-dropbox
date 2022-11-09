@@ -189,6 +189,38 @@ main {
     height: 300px;
 }
 
+.main-box {
+    display: flex;
+    height: 300px;
+    margin: 30px 0;
+
+}
+
+.main-box>* {
+    flex-basis: calc(100% / 3);
+}
+
+.main-box-row {
+    display: flex;
+}
+
+.main-box-col {
+    flex-basis: 50%;
+    height: 150px;
+
+}
+
+.main-box-card {
+    height: 50px;
+}
+
+/* .main-box-left,
+.main-box-right {}
+
+.main-box-center {}
+
+.main-box-right {} */
+
 /* utilis */
 
 .container-big {
