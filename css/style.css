@@ -141,6 +141,7 @@ main {
 .main-content-col {
     display: flex;
     gap: 5px;
+    margin-top: 20px;
 
 }
 
@@ -148,6 +149,11 @@ main {
     flex-basis: calc(100% / 3);
     height: 300px;
 
+}
+
+.main-uni-col {
+    height: 100px;
+    margin: 20px 0;
 }
 
 /* utilis */
