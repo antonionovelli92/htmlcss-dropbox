@@ -5,7 +5,7 @@
 
 .bg-blul {
     background-color: #B3D0E7;
-    margin: 20px auto;
+    margin: 50px auto;
     height: 520px;
 }
 
@@ -127,10 +127,28 @@ header .navbar {
 /* ! main */
 main {
     overflow: auto;
-    ;
+
 }
 
+.main-content {
+    margin: 40px auto;
+}
 
+.main-content-title h1 {
+    font-size: 30px;
+}
+
+.main-content-col {
+    display: flex;
+    gap: 5px;
+
+}
+
+.main-col {
+    flex-basis: calc(100% / 3);
+    height: 300px;
+
+}
 
 /* utilis */
 
