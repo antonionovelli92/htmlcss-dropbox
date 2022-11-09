@@ -9,6 +9,19 @@
     height: 520px;
 }
 
+.bg-start {
+    background-color: #B3D0E7;
+    height: 250px;
+}
+
+
+
+
+
+
+.faq {
+    height: 300px;
+}
 
 
 /* Reset CSS */
@@ -192,7 +205,7 @@ main {
 .main-box {
     display: flex;
     height: 300px;
-    margin: 30px 0;
+    margin-top: 30px;
 
 }
 
