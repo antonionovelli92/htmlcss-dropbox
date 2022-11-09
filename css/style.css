@@ -175,15 +175,18 @@ main {
 
 .main-row {
     display: flex;
+
     gap: 5px;
 }
 
-.main-col {}
+.main-col-card {
+    flex-basis: calc(100% / 3);
+}
 
 .main-card {
-    flex-basis: calc(100% / 3);
+
     margin: 20px 0;
-    height: 100px;
+    height: 300px;
 }
 
 /* utilis */
