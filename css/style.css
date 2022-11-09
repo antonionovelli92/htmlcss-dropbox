@@ -95,6 +95,7 @@ header .navbar {
 
 .jumbo-text h1 {
     margin-top: 50px;
+    font-weight: bolder;
 }
 
 .jumbo-col-left {
@@ -204,7 +205,7 @@ main {
 
 .main-box {
     display: flex;
-    height: 300px;
+    height: 400px;
     margin-top: 30px;
 
 }
@@ -219,7 +220,7 @@ main {
 
 .main-box-col {
     flex-basis: 50%;
-    height: 150px;
+    height: 200px;
 
 }
 
@@ -227,19 +228,9 @@ main {
     height: 50px;
 }
 
-/* .main-box-left,
-.main-box-right {}
-
-.main-box-center {}
-
-.main-box-right {} */
 
 /* utilis */
 
-.container-big {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .container-mid {
     max-width: 1000px;
