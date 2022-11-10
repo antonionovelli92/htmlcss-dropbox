@@ -35,6 +35,14 @@
     margin: 50px 0;
 }
 
+.fb70 {
+    flex-basis: 70%;
+}
+
+.fb30 {
+    flex-basis: 30%;
+}
+
 .b-bot {
     border-bottom: 1px solid lightgrey;
 
@@ -49,6 +57,9 @@
     width: 100%;
 }
 
+.h100 {
+    height: 100%;
+}
 
 hr {
     width: 30%;
@@ -459,6 +470,17 @@ main {
 
 .center-text p {
     font-size: 12px;
+}
+
+.try-box {
+    height: 100%;
+    align-items: center;
+}
+
+.try-right h2 {
+    margin-right: 21%;
+    color: #61092B;
+    font-size: 36px;
 }
 
 /* utilis */
