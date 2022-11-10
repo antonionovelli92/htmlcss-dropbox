@@ -19,8 +19,13 @@
     /* justify-content: center; */
 }
 
+.jc-sp {
+    justify-content: space-between;
+}
 
-
+.p15 {
+    padding: 15px;
+}
 
 
 .faq {
@@ -242,9 +247,26 @@ main {
 }
 
 .main-uni-col {
-    height: 100px;
+    min-height: 100px;
     margin: 20px 0;
+    border: 1px solid lightgray;
 }
+
+.main-uni-content-text {
+    margin-right: 30%;
+}
+
+.main-uni-content-text h6 {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.main-uni-content-text p {
+    font-weight: lighter;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
 
 .main-partner {
     display: flex;
