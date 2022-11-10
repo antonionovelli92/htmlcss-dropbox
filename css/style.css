@@ -151,19 +151,37 @@ main {
 
 .main-content-title h1 {
     font-size: 30px;
+    margin-bottom: 15px;
 }
 
 .main-content-col {
     display: flex;
-    gap: 5px;
+    gap: 40px;
     margin-top: 20px;
 
 }
 
 .main-col {
     flex-basis: calc(100% / 3);
-    height: 300px;
+    min-height: 300px;
+    border: 1px solid lightgray;
 
+}
+
+.main-col-box {
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    padding: 5px;
+}
+
+.main-col-title {
+    font-weight: lighter;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.main-col-box .fa-solid {
+    font-size: 14px;
 }
 
 .main-uni-col {
@@ -282,8 +300,12 @@ a {
 
 .main-options {
     margin: 10px 0;
-
     display: inline-block;
+}
+
+.main-options h5 {
+    margin-left: 6px;
+    display: flex;
 }
 
 .circle {
@@ -303,29 +325,3 @@ a {
     border: 1px solid gray;
     background-color: white;
 }
-
-
-
-
-/* .circle-unselect {
-    height: 20px;
-    width: 20px;
-    border: 2px solid gray;
-    background-color: white;
-    border-radius: 50%;
-    display: inline-block;
-
-} */
-
-.main-options h5 {
-    margin-left: 20px;
-    display: flex;
-}
-
-/* .dot {
-    height: 25px;
-    width: 25px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-} */
