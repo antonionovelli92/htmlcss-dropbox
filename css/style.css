@@ -284,7 +284,7 @@ main {
 }
 
 .main-partner-img img {
-    height: 400px;
+    height: 450px;
     background-size: contain;
     width: 100%;
 }
@@ -322,10 +322,23 @@ main {
     flex-basis: calc(100% / 3);
 }
 
-.main-card {
+.main-card-img {
 
     margin: 20px 0;
-    height: 300px;
+    min-height: 300px;
+}
+
+.main-card-img img {
+    height: 200px;
+    background-size: contain;
+    width: 100%;
+}
+
+.main-card-text p {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 10px;
+
 }
 
 .main-box {
