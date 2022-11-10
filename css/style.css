@@ -31,6 +31,58 @@
     padding: 30px;
 }
 
+.m50 {
+    margin: 50px 0;
+}
+
+.linkcolor {
+    text-decoration: underline;
+    color: #0160FF;
+}
+
+.w100 {
+    width: 100%;
+}
+
+#green {
+    background-color: #A2D39B;
+}
+
+#darkred {
+    background-color: #61092B;
+}
+
+#asu {
+    height: 70px;
+}
+
+#lightblu {
+    background-color: #0093CE;
+}
+
+#lightred {
+    background-color: #FF1B1C;
+}
+
+#red {
+    background-color: red;
+}
+
+#cyano {
+    background-color: #B3D0E7;
+}
+
+#blu {
+    background-color: darkblue;
+}
+
+#yellow {
+    background-color: #FFD72F;
+}
+
+#lightgray {
+    background-color: #F5F5F5;
+}
 
 .faq {
     height: 300px;
@@ -341,9 +393,17 @@ main {
 
 }
 
+
+.main-last-title h1 {
+    margin-right: 40%;
+    font-size: 30px;
+}
+
+
+
 .main-box {
     display: flex;
-    height: 400px;
+    min-height: 400px;
     margin-top: 30px;
 
 }
@@ -363,7 +423,15 @@ main {
 }
 
 .main-box-card {
+    min-height: 50px;
+    margin: 73px 38px;
+}
+
+.main-box-card img {
     height: 50px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    text-align: center;
+
 }
 
 
@@ -454,9 +522,6 @@ a {
     font-size: 8px;
 }
 
-.w100 {
-    width: 100%;
-}
 
 .call {
     background-color: #0160FF;
