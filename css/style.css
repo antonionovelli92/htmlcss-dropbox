@@ -185,7 +185,7 @@ main {
 }
 
 .main-box-content {
-    padding: 30px;
+    padding: 26px;
 }
 
 .main-box-content li {
@@ -199,6 +199,14 @@ main {
 .main-box-link {
     margin: 20px auto;
     font-size: 14px;
+}
+
+.main-box-content-button {
+    margin-top: 50px;
+}
+
+.main-box-content-button-call {
+    margin-top: 34px;
 }
 
 .main-box-link h5 {
@@ -220,6 +228,17 @@ main {
 
 .main-central-box .fa-solid {
     font-size: 14px;
+}
+
+
+.main-box-content-list {
+    padding-top: 40px;
+}
+
+.main-box-content-list ul li:before {
+    content: '\2713';
+    color: #0160FF;
+    font-size: 15px;
 }
 
 .main-uni-col {
@@ -366,8 +385,21 @@ a {
 
 #prezzo {
     font-size: 15px;
+    margin: 10px 0;
 }
 
 #mese {
     font-size: 8px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.call {
+    background-color: #0160FF;
+    color: white;
+    border: 0;
+    padding: 10px 65px;
+    cursor: pointer;
 }
