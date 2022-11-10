@@ -6,7 +6,7 @@
 .bg-blul {
     background-color: #B3D0E7;
     margin: 50px auto;
-    height: 520px;
+    min-height: 520px;
 }
 
 .bg-start {
@@ -96,6 +96,7 @@ header .navbar {
 .jumbo-text h1 {
     margin-top: 50px;
     font-weight: bolder;
+    padding: 50px 0px;
 }
 
 .jumbo-col-left {
@@ -275,6 +276,56 @@ a {
 }
 
 .fa-arrow-down {
-    font-size: 35px;
-    margin: 5px 0;
+    font-size: 30px;
+    margin: 10px 0;
 }
+
+.main-options {
+    margin: 10px 0;
+
+    display: inline-block;
+}
+
+.circle {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+    align-self: center;
+}
+
+.select {
+    border: 4px solid #0160FF;
+    background-color: white;
+}
+
+.unselect {
+    border: 1px solid gray;
+    background-color: white;
+}
+
+
+
+
+/* .circle-unselect {
+    height: 20px;
+    width: 20px;
+    border: 2px solid gray;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+
+} */
+
+.main-options h5 {
+    margin-left: 20px;
+    display: flex;
+}
+
+/* .dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+} */
