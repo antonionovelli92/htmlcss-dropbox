@@ -661,6 +661,11 @@ address {
 /* hoover */
 .fa-arrow-down:hover {
     transition: linear 2s;
-    transform: rotate(180deg);
+    transform: scale(1.5);
     cursor: pointer;
+}
+
+.fa-angle-down:hover {
+    cursor: pointer;
+    transform: rotate(180deg);
 }
