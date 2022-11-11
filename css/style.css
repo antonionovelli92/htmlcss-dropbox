@@ -159,7 +159,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-header {}
+
 
 header .navbar {
     display: flex;
@@ -279,8 +279,9 @@ main {
 
 .main-content-col {
     display: flex;
-    gap: 40px;
+    gap: 30px;
     margin-top: 20px;
+    padding: 20px;
 
 }
 
@@ -315,13 +316,32 @@ main {
     margin: 5px;
 }
 
+.main-box-content-list {
+    padding-top: 40px;
+}
+
+
+.box-list li {
+    display: flex;
+}
+
+.main-box-content-list .box-list .fa-solid {
+    color: #0160FF;
+}
+
+/* .main-box-content-list ul li:before {
+    content: '\2713';
+    color: #0160FF;
+    font-size: 15px;
+} */
+
 .main-box-link {
     margin: 20px auto;
     font-size: 14px;
 }
 
 .main-box-content-button {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .main-box-content-button-call {
@@ -350,15 +370,6 @@ main {
 }
 
 
-.main-box-content-list {
-    padding-top: 40px;
-}
-
-.main-box-content-list ul li:before {
-    content: '\2713';
-    color: #0160FF;
-    font-size: 15px;
-}
 
 .main-uni-col {
     min-height: 100px;
