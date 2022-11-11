@@ -656,6 +656,7 @@ address {
 
 /* hoover */
 .fa-arrow-down:hover {
+    transition: linear 2s;
     transform: rotate(180deg);
     cursor: pointer;
 }
