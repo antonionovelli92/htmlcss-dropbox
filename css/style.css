@@ -514,55 +514,15 @@ main {
 
 }
 
-
-/* .main-box {
-    display: flex;
-    min-height: 400px;
-    margin-top: 30px;
-
+.normal-box .logo-central {
+    height: 60px;
+    width: 40%;
 }
 
-.main-box {
-    width: calc(100vw / 3);
-    height: calc(100vw / 3);
-
-}
-
-.main-box-row {
-    display: flex;
-}
-
-.main-box-col {
-    width: 50%;
-    height: 50%;
-
-}
-
-.main-box-card {
-
-    margin: 73px 38px;
-}
-
-.main-box-card img {
-    height: 50px;
-    filter: invert(1);
-    text-align: center;
-
-}
-
-.main-box-center img {
-    height: 70px;
-
-}
-
-.main-box-center h6 {
-    font-size: 10px;
-
-}
-
-.center-text p {
+.normal-box p,
+address {
     font-size: 12px;
-} */
+}
 
 .try-box {
     height: 100%;
