@@ -669,3 +669,14 @@ address {
     cursor: pointer;
     transform: rotate(180deg);
 }
+
+
+.main-uni-col:hover {
+    box-shadow: 0px 5px 10px 2px #333333;
+    cursor: pointer;
+}
+
+.main-col:hover {
+    box-shadow: 0px 5px 10px 2px #333333;
+    cursor: pointer;
+}
