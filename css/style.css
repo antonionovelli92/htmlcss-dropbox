@@ -1,3 +1,15 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* generics */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* colors */
 #green {
     background-color: #A2D39B;
@@ -129,6 +141,12 @@
     height: 100%;
 }
 
+#hr-xxs {
+    width: 5px;
+    margin: 20px 0;
+    color: lightgray;
+}
+
 #hr-xsmall {
     width: 14%;
     margin: 40px 0;
@@ -149,21 +167,7 @@ img {
     width: 100%;
 }
 
-
-
-/* Reset CSS */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* generics */
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
-
+/* ! header */
 
 header .navbar {
     display: flex;
@@ -257,7 +261,7 @@ header .navbar {
     left: 0;
 }
 
-/* ! main */
+/* ! MAIN */
 main {
     overflow: auto;
 
@@ -526,7 +530,7 @@ address {
     margin-right: 35%;
 }
 
-/* footer */
+/* ! FOOTER */
 
 footer {
     background-color: black;
